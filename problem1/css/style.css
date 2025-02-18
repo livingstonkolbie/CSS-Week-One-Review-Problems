@@ -1,0 +1,55 @@
+
+
+
+body {
+    background-color: black;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: 47px;
+    background-repeat: no-repeat;
+    background-image: url("https://indieground.net/wp-content/uploads/2023/03/Freebie-GradientTextures-Preview-05.jpg");
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+img {
+    position: absolute;
+    width: 143px;
+    top: 479px;
+    left: 687px;
+
+}
+
+h1 {
+    position: absolute;
+    font-family: "Barrio", serif;
+    font-size: xx-large;
+    top: 30px;
+    left: 413px;
+}
+
+button {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.5187324929971988) 100%);
+    border: 4px solid black;
+    border-radius: 50%;
+    top: 150px;
+    left: 585px;
+}
+
+.buttonTitle {
+    font-family: "Barrio", serif;
+    font-size: xx-large;
+}
